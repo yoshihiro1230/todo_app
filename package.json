@@ -1,0 +1,33 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "package_name": "^1.0.2",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify app/assets/javascripts/app.js
+    -t babelify -o app/assets/javascripts/bundle.js -v" ,
+    "watch": "watchfy app/assets/javascripts/app.js
+    -t babelify -o app/assets/javascripts/app.js -v" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoshihiro1230/todo_app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshihiro1230/todo_app/issues"
+  },
+  "homepage": "https://github.com/yoshihiro1230/todo_app"
+}
